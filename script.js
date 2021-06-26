@@ -3,8 +3,7 @@ const quoteContainer = document.querySelector('quote-container');
 const quoteText = document.querySelector('#quote');
 const authorText = document.querySelector('#author');
 const twitterBtn = document.querySelector('#twitter');
-const newQuoteBtn = document.querySelector('#new-quote');
-const loader = document.querySelector('#loader');
+
 
 // getting Quote from API 
 
@@ -19,7 +18,7 @@ try {
     UpdateUi(data)
 }
 catch (err) {
-    // getQuote();
+    getQuote();
     console.log(err.message)
 }
 
@@ -56,4 +55,4 @@ twitterBtn.addEventListener('click' , tweetQuote);
 newQuoteBtn.addEventListener('click',getQuote);
 
 // calling getQuote on load
-getQuote()
+getQuote();

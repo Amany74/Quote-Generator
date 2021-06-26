@@ -8,7 +8,7 @@ const twitterBtn = document.querySelector('#twitter');
 // getting Quote from API 
 
 async function getQuote(){
-const url = 'http://api.quotable.io/random'
+const url = 'https://api.quotable.io/random'
 
 try {
     //fetching data using fetch method

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Roboto:ital,wght@0,700;1,400&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Cairo', sans-serif;
+font-weight: 800px;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height:100vh;
+    background-color: #dfdbe5;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%231a1a1a' fill-opacity='0.22'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+ .quote-container {
+     width: auto;
+     max-width: 40rem;
+     padding: 2rem 3rem;
+     border-radius: 3rem;
+     background-color: #dbd2dbea;
+     box-shadow: 0 0.8rem 0.8rem 0.4rem rgb(173, 169, 169);
+    }
+ 
+.quote-text{
+    font-size:2rem;
+
+}
+
+.long-quote{
+    font-size: 1.5rem;
+}
+
+.quote-author{
+    font-size: 1.7rem;
+    font-style: italic;
+    opacity: 0.8;
+    margin-top:1rem;
+}
+
+.button-container{
+    margin-top:1rem;
+    display: flex;
+    justify-content:space-between;
+}
+button{
+    cursor: pointer;
+    font-size: 1.8rem;
+    color:rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius:0.6rem;
+    border: 0px solid ;
+    opacity: 0.9;
+    padding: 0.7rem  ;
+    box-shadow: 0 0.8rem 0.5rem rgb(173, 169, 169);
+    transition: all 0.6s;
+}
+button:hover{
+     filter: brightness(120%);
+     -webkit-filter: brightness(120%);
+}
+button:active{
+    transform: translate(0,0.7rem);
+    border: 0 solid;
+    box-shadow: 0  0.2rem rgba(255,255,255,0.65);
+    -webkit-transform: translate(0,0.7rem);
+    -moz-transform: translate(0,0.7rem);
+    -ms-transform: translate(0,0.7rem);
+    -o-transform: translate(0,0.7rem);
+}
+
+.quote-text{
+    font-size:1.1rem;
+
+}
+
+button{
+    font-size: 1.1em;
+}
+.long-quote{
+    font-size: 1.2rem;
+}
+
+.quote-author{
+    font-size: 1rem;
+    font-style: italic;
+    opacity: 0.8;
+    margin-top:1rem;
+}
+
+}
